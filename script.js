@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-                timeRemainingElement.textContent = `${hours}h ${minutes}m ${seconds}s`;
+                timeRemainingElement.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 
                 priceElement.textContent = discountedPrice;
                 ribbon.style.display = 'block';
